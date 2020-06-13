@@ -9,7 +9,7 @@ while tag < laufzeit:
     schulden = ischulden / 100 * zinssatz - zurückgezahlt 
     ischulden = schulden + ischulden 
 
-    print("die schulden von tag: " ,tag, " betragen:" ,ischulden )
-
+    print(f"die schulden von tag:  {tag}  betragen: {ischulden:0.2f}" )
+# ok boomer lol krass!!!
 
 
